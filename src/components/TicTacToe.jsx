@@ -26,7 +26,8 @@ function TicTacToe() {
     return (
         <div>
             <h1>Tic Tac Toe</h1>
-            <Board 
+            <Board
+            playerTurn = {playerTurn}
             tiles = {tiles} 
             onTileClick = {handleTileClick}/>
         
